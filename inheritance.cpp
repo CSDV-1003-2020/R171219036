@@ -7,3 +7,9 @@ class parent //base class
 		int id_p;  // parent id
 };
 
+class child : public parent      //sub class inheriting from base 
+{
+	public:
+	int id_c;  // child id
+};
+
