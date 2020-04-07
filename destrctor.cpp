@@ -10,4 +10,10 @@ public:
   //Constructor
   HelloWorld(){
     cout<<"Constructor is called"<<endl;
-  }
+  
+ }
+
+  //Destructor
+  ~HelloWorld(){
+    cout<<"Destructor is called"<<endl;
+   }
