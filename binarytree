@@ -15,3 +15,18 @@ p->data=key;
 p->lchild=p->rchild=NULL;       
 root=p;        
 return;
+}
+
+while(t!=NULL)
+{
+  r=t;
+  if (key <(t->data))
+  {
+    t=key->lchild;
+    elseif(key>t->data)
+    {
+      }
+   }
+ }
+ 
+    
