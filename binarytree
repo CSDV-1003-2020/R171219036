@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+struct node{
+struct node *lchild;
+int data;
+struct node *rchild;
+}
+*root=NULL;
+void Insert(int key) {  
+struct Node *t=root;   
+struct Node *r=NULL,*p;       
+if(root==NULL)    {      
+p=(struct Node *)malloc(sizeof(struct Node));       
+p->data=key;        
+p->lchild=p->rchild=NULL;       
+root=p;        
+return;
+
+
+
+
+
+
+
+
+ p=(struct Node *)malloc(sizeof(struct Node));   
+ p->data=key;    
+ p->lchild=p->rchild=NULL;    
+    if(key<r->data) 
+    r->lchild=p;    
+    else
+    r->rchild=p; 
