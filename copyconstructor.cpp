@@ -1,7 +1,7 @@
 //A copy constructor is a member function which initializes an object using another object of the same class. 
 //example
 
-#include "iostream"
+#include <iostream>
 using namespace std;
 
 class point
@@ -15,6 +15,21 @@ public:
   {
     x = px, y = py;
   }
+  void getpoint(double x)
+  {
+return x;
+  }
+  void getpoint(double y)
+  {
+return y;
+  }
+void setpoint(double x)
+{
+cout<<"set the value of x"<<x;;
+}
+void setpoint(double y)
+{
+cout<<"set the value of y"<<y;
 };
 
 int main(void) 
