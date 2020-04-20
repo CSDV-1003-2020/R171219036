@@ -13,13 +13,16 @@ class child : public parent      //sub class inheriting from base
 	int id_c;  // child id
 };
 
-int main()
+int main() 
 {
-	child obj;
+	child obj;   // object created
 	cout << "enter child and parent id respectively : <<endl;
-	cin >> obj.id_c >> obj.id_p;
+	cin >> obj.id_c >> obj.id_p;          // taking data
 
+	
+	// Displaying data
 	cout << "child id is "  << obj.id_c << endl;
 	cout << "parent id is " << obj.id_p << endl;
-	 return 0;
+
+	return 0;
 }
